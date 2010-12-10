@@ -1,0 +1,125 @@
+2007-02-02  Nigel Gourlay <nwetters@cpan.org>
+
+	* added Aaland Islands (swedish) (AX:sv)
+	
+	* added Jersey (english) (JE:en)
+	
+	* added Montenegro (serbian) (ME:sr)
+	
+	* added Serbia (serbian) (RS:sr)
+	
+	* db/cc updated
+
+	* db/ip updated
+
+2005-06-03  Nigel Wetters Gourlay <nwetters@cpan.org>
+
+	* ColdFusion/remoteClasspath_geoLocator.cfc bugfix
+
+2005-06-02  Nigel Wetters Gourlay <nwetters@cpan.org>
+
+	* main() added to InetAddressLocator
+
+	* manifest modified to point to new main()
+
+	* db/cc updated
+
+	* db/ip updated
+
+	* ColdFusion/ changes from PaulH
+
+2005-06-02  Nigel Wetters Gourlay <nwetters@cpan.org>
+
+	* jini files removed - I have no tests
+
+	* net.wetters removed - obsolete for years
+
+	* Makefile tweaks to match deletions
+
+2004-10-22  Nigel Wetters Gourlay <nwetters@cpan.org>
+
+	* db/cc updated
+
+	* db/ip updated
+
+	* Makefile tweaks to suit my new setup
+
+2003-09-12  Nigel Wetters Gourlay <nwetters@cpan.org>
+
+	* my name has changed
+	
+	* db/cc updated; CS and UK are no longer in database
+
+	* db/ip updated
+
+2003-08-13  Nigel Wetters <nwetters@cpan.org>
+
+	* ColdFusion/geoLocator.cfc - BUGFIX (typo)
+
+2003-08-05  Dan Creswell <dan@dancres.org>
+
+	* Added Javadoc to the jini packages
+	
+2003-08-05  Dan Creswell <dan@dancres.org>
+
+	* Updated ant build script to create full JINI distribution
+
+	* Added Readme.txt to guide through the build and deploy of the JINI
+	wrappers.
+
+	* Added example configuration scripts, policy files etc.
+	
+2003-08-04  Nigel Wetters <nwetters@cpan.org>
+
+	* db/cc: updated
+
+	* db/ip: updated
+
+	* ColdFusion/: undeleted .cfc library
+
+2003-07-30  Dan Creswell <dan@dancres.org>
+
+	* Created a basic ant build script with optional JINI compilation
+	
+2003-07-30  Dan Creswell <dan@dancres.org>
+
+	* Removed client package dependency on Inca lookup code.  It should
+	all compile now so long as you have the JINI 2.0 libraries.
+	
+2003-07-30  Dan Creswell <dan@dancres.org>
+
+	* net/sf/javainetlocator/jini package renaming
+	
+2003-07-30  Dan Creswell <dan@dancres.org>
+
+	* incax/IP2CC.jsw removed
+
+	* incax/IPGeographerClient.java package renaming
+
+2003-07-30  Nigel Wetters <nwetters@cpan.org>
+
+	* src/net/javainetlocator/*.java: package renaming
+
+	* src/net/javainetlocator/jini/*.java: Dan Creswell's classes
+
+	* incax/: various stuff from Dan Creswell
+
+	* src/net/wetters/*.java: wrappers for renamed classes
+
+2003-07-29  Nigel Wetters <nwetters@cpan.org>
+
+	* src/net/wetters/InetAddressLocator.java: array resizing optimized
+	(thx Dan Creswell)
+
+2003-04-07  Nigel Wetters <nwetters@cpan.org>
+
+	* src/net/wetters/InetAddressLocator.java: added getLocale(byte[] ip)
+	(thx Antonio Da Silva)
+
+	* db/cc: updated
+
+	* db/ip: updated
+
+	* db/locale.props: East Timor is now TP, not TL
+
+	
